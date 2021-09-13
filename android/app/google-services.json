@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "481884968064",
+    "project_id": "notas-c627c",
+    "storage_bucket": "notas-c627c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481884968064:android:f8e7cc30b843a69f3c0265",
+        "android_client_info": {
+          "package_name": "com.notesfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481884968064-od6o81ch1hn5htpjgbt6ffdab74unee8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7D4Biqn-QAOCeQTQ9YBKUutT3xU7br5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481884968064-od6o81ch1hn5htpjgbt6ffdab74unee8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

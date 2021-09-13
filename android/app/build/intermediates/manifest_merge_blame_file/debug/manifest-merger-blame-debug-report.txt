@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.notesfirebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+13-->[com.facebook.flipper:flipper:0.75.1] /home/sebastian/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] /home/sebastian/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:5-79
+15-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:13:22-76
+16
+17    <application
+17-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:6:5-24:19
+18        android:name="com.notesfirebase.MainApplication"
+18-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:7:7-38
+19        android:allowBackup="false"
+19-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:11:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/11a797cebefefed665d4013bac2be5f6/core-1.2.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:9:7-41
+23        android:label="@string/app_name"
+23-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:8:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:10:7-52
+25        android:theme="@style/AppTheme"
+25-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:12:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+27-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/debug/AndroidManifest.xml:11:9-86
+27-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/debug/AndroidManifest.xml:11:19-83
+28        <activity
+28-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:13:7-23:18
+29            android:name="com.notesfirebase.MainActivity"
+29-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:label="@string/app_name"
+31-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:18:9-51
+34            <intent-filter>
+34-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:19:9-22:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:20:13-65
+35-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:20:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:21:13-73
+37-->/media/sebastian/Linux Sebastian/Programacion/React Native Cli/Notes Firebase/notesFirebase/android/app/src/main/AndroidManifest.xml:21:23-70
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:17:9-23:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:18:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:19:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+46                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+46-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-firestore:23.0.3] /home/sebastian/.gradle/caches/transforms-2/files-2.1/fd2d2d467fbe4a611ea4abaef1b8112d/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+48        </service>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+51            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+51-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+52            android:excludeFromRecents="true"
+52-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+55        <!--
+56            Service handling Google Sign-In user revocation. For apps that do not integrate with
+57            Google Sign-In, this service will never be started.
+58        -->
+59        <service
+59-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+60            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+60-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+61            android:exported="true"
+61-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+62            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+62-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+63            android:visibleToInstantApps="true" />
+63-->[com.google.android.gms:play-services-auth:19.2.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/492b5917a575563d9324a93290bc4f97/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+69
+70        <provider
+70-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+71            android:name="com.google.firebase.provider.FirebaseInitProvider"
+71-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+72            android:authorities="com.notesfirebase.firebaseinitprovider"
+72-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+74            android:exported="false"
+74-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+75            android:initOrder="100" />
+75-->[com.google.firebase:firebase-common:20.0.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.5.0] /home/sebastian/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>

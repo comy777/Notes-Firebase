@@ -1,0 +1,9 @@
+com/notesfirebase/MainApplication.java
+ com.notesfirebase.MainApplication
+ com.notesfirebase.MainApplication$1
+com/notesfirebase/MainActivity.java
+ com.notesfirebase.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/notesfirebase/BuildConfig.java
+ com.notesfirebase.BuildConfig
